@@ -12,11 +12,9 @@ function cadastraAluno(array $aluno):bool
         return false;
 }
 
-$funcionou = cadastraAluno(['matricula' => 98237, 'nome' => 'Isonequex']);
+$funcionou = cadastraAluno(['matricula' => 56373, 'nome' => 'João']);
 
 if($funcionou)
     echo "<br>Aluno cadastrado c/ sucesso!";
 else
     echo "<br>Erro ao cadastrar o aluno!"; 
-
-
