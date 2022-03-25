@@ -21,7 +21,7 @@ else
 
 /*
 #INSERT
-if($bd->exec('INSERT INTO tarefas (descricao) VALUES ("Tarefa inserida via PHP")')) #Insere dados
+if($bd->exec('INSERT INTO tarefas (descricao) VALUES ("Mais uma tarefa inserida")')) #Insere dados
     echo "GRAVOU";
 else 
     echo "Ai meu Deus!";
@@ -30,12 +30,14 @@ else
 
 #Formas do DELETE
 
+
 #DELETE
-if($bd->exec('DELETE FROM tarefas WHERE id = 14')) #Remove dados
+if($bd->exec('DELETE FROM tarefas WHERE id = 19')) #Remove dados
     echo "GRAVOU";
 else 
     echo "Ai meu Deus!";
 #FIM DO DELETE
+
 
 /*
 #DELETE
@@ -46,3 +48,4 @@ else
 #FIM DELTE
 */
 
+#DESC - mostra a estrutura.
