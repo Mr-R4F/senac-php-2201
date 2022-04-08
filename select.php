@@ -1,5 +1,5 @@
 <?php
-
+/*
 //Conecta
 $bd = new PDO('mysql:dbname=php;localhost', 'root', '');
 //Fim da conexão
@@ -17,7 +17,7 @@ $stmt -> execute();
 #p/ chegar nos dados (recupera)
 $registro = $stmt -> fetch(PDO::FETCH_ASSOC); //Retorna em vetor, onde os indices são as colunas - recupera um único registro  // sempre que chamado mostra a próxima linha
 //$registro = $stmt -> fetchAll(); //mostra todos os dados.
-
+*/
 //Loop p/ mostrar tudo
 
 /*
@@ -25,7 +25,7 @@ foreach ($registro as $value) {
     echo $value['descricao'];
 }
 */
-
+/*
 echo "<table border='1'>
     <tr>
         <td>ID</td><td>Descrição</td>
@@ -39,3 +39,4 @@ while ($registro = $stmt -> fetch(PDO::FETCH_ASSOC)) //retorna o vetor c/ uma li
     </tr>";
 }
 echo "</table>";
+*/
