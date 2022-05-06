@@ -1,0 +1,16 @@
+soap uma das APIs, mas está deixando de ser usadao, pois é mais complexo, mas dificil, ocupa + banda
+
+restful(rest) - usa metodos https (usar o post envia info pra api rest) (get obtem info da api rest) (put - também insere info)
+(delete apaga info do rest) - usar os metodos para indicar quais metodos se quer usar
+
+ler os códigos hhtp
+
+https : 200 - deu certo
+404 não encontrou o recurso (erros navegador)
+500 - erro no código (erros no server)
+
+pacotes de dados, JSON (para formatar dados de um local para outro)
+
+³¬³£¬494tgeweLKG46²£¬3464362
+
+create collection (criação de requisições )
