@@ -1,5 +1,6 @@
 <?php
-require_once '../../crudTarefa/conexao.php';
+
+require_once 'conexao.php';
 
 $metodo = $_SERVER['REQUEST_METHOD'];
 
